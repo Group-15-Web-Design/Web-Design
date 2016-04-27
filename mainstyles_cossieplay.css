@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1500px;
+	height: 800px;
+	background-color: #FF9;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	display:block;
+	clear: both;
+}
+
+#box1 {
+	width: 100%; 
+	height: 100px; 
+	background-color:#02C8c7;
+	display:block;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+#headerbox {
+	width: 1200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+#headerbox1 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#headerbox2 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#headerbox3 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#headerbox4 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#headerbox5 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#headerbox6 {
+	width: 200px;
+	height: 100px;
+	float:left;
+}
+
+#annoucements {
+	width: 290px; 
+	height: 800px; 
+	background-color:#02C8A7; 
+	float:right;
+	margin: 0px;
+	padding-left:10px;
+}
+
+#H2_announcements {
+	text-align:center;
+}
+
+#book_now {
+	width:260px;
+	height:200px;
+}
+
+/* START OF BUTTON */
+
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f5323f), color-stop(1, #f06570));
+	background:-moz-linear-gradient(top, #f5323f 5%, #f06570 100%);
+	background:-webkit-linear-gradient(top, #f5323f 5%, #f06570 100%);
+	background:-o-linear-gradient(top, #f5323f 5%, #f06570 100%);
+	background:-ms-linear-gradient(top, #f5323f 5%, #f06570 100%);
+	background:linear-gradient(to bottom, #f5323f 5%, #f06570 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5323f', endColorstr='#f06570',GradientType=0);
+	background-color:#f5323f;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:12px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #000000;
+}
+.myButton:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f06570), color-stop(1, #f5323f));
+	background: -moz-linear-gradient(top, #f06570 5%, #f5323f 100%);
+	background: -webkit-linear-gradient(top, #f06570 5%, #f5323f 100%);
+	background: -o-linear-gradient(top, #f06570 5%, #f5323f 100%);
+	background: -ms-linear-gradient(top, #f06570 5%, #f5323f 100%);
+	background: linear-gradient(to bottom, #f06570 5%, #f5323f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f06570', endColorstr='#f5323f',GradientType=0);
+	background-color: #f06570;
+	font-size: 25px;
+	color: #ffffff;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+	color: #FFFFFF;
+}
+
+.myButton:link {
+	position: relative;
+	top: 1px;
+	color: #FFFFFF;
+}
+
+.myButton:visited {
+	position: relative;
+	top: 1px;
+	color: #FFFFFF;
+}
+
+/* END OF BUTTON */
+
+body {
+    margin: 0;
+    padding: 0;
+	font-family: "Segoe UI", "Frutiger", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+	background-color:#f3ebdb;
+}
+
+#Facebook_News_Feed {
+	width: 290px;
+	height: 800px;
+	background-color:#02C8A7;
+	margin: 0px;
+	padding-left:10px;
+	float:left;
+}
+
+#body {
+	width: 890px; 
+	height: 800px; 
+	background-color:#86d6d3; 
+	float:right;
+	padding-left:10px;
+}
+
+#h2_body {
+	text-align:left;
+}
+
+#body_text {
+	
+}
+
+#footer {
+	width: 1500px; 
+	height: 75px; 
+	background-color:#02C8c7; 
+	clear:both;
+	text-align:center;
+}
+
+.link {
+	color: #000000;
+	text-decoration:none;
+}
+
+a:hover .link {
+	color:#18AFE5;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#18AFE5;
+	text-decoration:none;
+}
+
+a:link {
+	color:#18AFE5;
+	text-decoration:none;
+}
+
+a:active {
+	color:#18AFE5;
+	text-decoration:none;
+}
+
+h1 {
+	font-size:26px;
+}
